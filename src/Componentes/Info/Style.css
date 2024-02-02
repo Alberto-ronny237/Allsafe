@@ -1,0 +1,36 @@
+
+.container{
+    display: flex;
+}
+.container .contacts{
+    display: flex;
+    position:fixed;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    padding: 15px 145px;
+    background-color: rgb(72, 127, 236);
+    
+}
+
+.container .contacts a{
+    display: flex;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    gap: 2px;
+}
+
+.container .social {
+    display: flex;
+    margin-left: 313px;
+    justify-content: right;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .social a{
+    font-size: 23px;
+    align-items: center;
+}
