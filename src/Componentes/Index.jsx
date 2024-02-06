@@ -8,6 +8,7 @@ function Index() {
       <Info/>
       <Header />
       <SobreEmpresa/>
+      <Info/>
     </>
   )
 }
