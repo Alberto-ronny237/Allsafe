@@ -1,0 +1,56 @@
+.sobreTitulo{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 125px;
+    padding-top: 60px;
+}
+.containerSobre{
+    position: absolute;
+    z-index: -1;
+
+}
+
+.sobreSubTitulo{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 125px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    color: #666;
+    
+}
+
+.containerEspecialista{
+    background-color: rgb(72 127 236);
+    padding: 59px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.especialistaTitulo{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+}
+
+.paragrafoEspecialista{
+    text-align: center;
+    letter-spacing: 8px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 13px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+.green{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72 127 236);
+    border-radius: 18px;
+    width: 40px;
+    height: 45px;
+    margin-left: 658px;
+    margin-top: -15px;
+    
+
+}
+

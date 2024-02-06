@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
 }
-
 body{
-    height: 5000px;
+    height: 3000px;
 }
 
 nav{
@@ -52,21 +51,28 @@ ul a:hover{
  
 
 
- h1{
-    position: absolute;
-    z-index: -1;
-    margin-top: 185px;
+ .sub{
+    padding-top: 65px;
     margin-left: 125px;
     color: rgb(72, 127, 236);
     font-family: 'Raleway', sans-serif;
     font-size: 45px;
 }
-h1.titlo{
+.titulo{
+    margin-left: 125px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 235px;
     font-size: 58px;
     color: white;
 }
+ .banner{
+    background-image: url("../../assets/software.png");
+    width: 100%;
+    object-fit: cover;   
+    margin-top: 115px;
+    padding-bottom: 330px;
+    background-repeat: no-repeat;
+}
+
 
  .templetes{
     margin-top: 100px;

@@ -1,6 +1,6 @@
 import Logo from "../../assets/Logo.png"
 import Templete from "../../assets/software.png"
-import "./style.css"
+import "./header.css"
 
 function Header(){
     return(
@@ -18,13 +18,12 @@ function Header(){
                     </ul>
                 </div>
                 </nav>
-
                 </header>
 
                 <div className="banner">
-                    <h1>Soluções Tecnológicas</h1>
-                    <h1 className="titlo" > <span>Com Marca Angolana. </span></h1>
-                <img className="templetes" src={Templete} alt="templete do site" />
+                    
+                    <h2 className="sub">Soluções Tecnológicas</h2>
+                    <h1 className="titulo" >Com Marca Angolana.</h1>
 
                 </div>
 
